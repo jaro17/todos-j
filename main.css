@@ -11,8 +11,7 @@ h3 {
   text-align: center;
 }
 
-.collection,
-.collection-item {
+.collection .collection-item {
   display: flex;
   justify-content: space-between;
   color: #fff;
