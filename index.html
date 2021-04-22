@@ -6,8 +6,43 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>To-Do List</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://kit.fontawesome.com/bd7178b60d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<h1>Hello, Jardo</h1>
+
+<div class="container">
+
+    <header>
+        <h3>ToDo List</h3>
+        <form class="search">
+            <input type="text" name="search" placeholder="Search ToDos">
+        </form>
+    </header>
+
+    <ul class="todos collection">
+        <li class="collection-item">
+            <span>play mariokart</span>
+            <i class="far fa-trash-alt delete"></i>
+        </li>
+        <li class="collection-item">
+            <span>defeat ganon in zelda</span>
+            <i class="far fa-trash-alt delete"></i>
+        </li>
+        <li class="collection-item">
+            <span>make a veggie pie</span>
+            <i class="far fa-trash-alt delete"></i>
+        </li>
+    </ul>
+
+    <form class="add">
+        <label class="new">Add a new todo...</label>
+        <input type="text" name="add">
+    </form>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
